@@ -121,3 +121,7 @@ LOGIN_REDIRECT_URL =  '/'
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGIN_URL = '/users/login'
+#когда юзер не прошедший проверку запращивает страницу защищенную login required dj отправляет
+# на урл указанный  в логин_урл
