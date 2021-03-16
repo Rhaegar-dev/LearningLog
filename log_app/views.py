@@ -70,6 +70,3 @@ def edit_entry(request, entry_id):
             return HttpResponseRedirect(reverse('topic', args=[topic.id]))
     context = {'entry': entry, 'topic': topic, 'form': form}
     return render(request, 'edit_entry.html', context)
-
-# lj,bnm уже это радактирование записей две страницы всего ммм давить мнияяааа шшшш чуть чуть
-# адски сложно тяжело ужасно кошмар смерть
